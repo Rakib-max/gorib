@@ -1,0 +1,104 @@
+@media (max-width:799px) {
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .user-img-section {
+        display: none;
+    }
+    .name-email {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    form input {
+        width: 45%;
+        height: 40px;
+        margin-bottom: 30px;
+        transition: 0.2s;
+    }
+    form input:hover {
+        box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+        width: 100%;
+    }
+    .blog-us .row {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .blog-us .column {
+        margin-top:20px;
+        width: 100%;
+        height: 350px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .porfolio .row {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-bottom: 40px;
+        width: 100%;
+        margin: auto;
+    }
+    .porfolio .row .col-1 {
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 170px;
+        position: relative;
+        box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+        /* margin-right: -120px; */
+    }
+    .main .about-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+   }
+   .about-img {
+    margin-left: 0;
+    padding: 5px;
+    text-align: center;
+}
+.social-icon-name a {
+    display: block;
+}
+
+.nav-bar {
+    display: none;
+}
+
+
+.service .cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.service .cards .card1 {
+    width: 100%;
+    padding: 50px 0;
+    margin-bottom: 50px;
+}
+
+.main, .service, .porfolio, .contact, .blog-us {
+    padding: 80px 20px 70px 20px;
+    text-align: center;
+}
+.main .about-text {
+    text-align: center;
+    margin-left: 30px;
+}
+ 
+form {
+    width: 100%;
+    margin: auto;
+}
+
+.porfolio .row .col-1 {
+    margin-bottom: 50px;
+    width: 70%;
+    margin: auto;
+}
+}
